@@ -52,19 +52,19 @@ public class MainActivity extends AppCompatActivity implements Button.OnClickLis
         Button btn0 = findViewById(R.id.btn0);
         btn0.setOnClickListener(this);
 
-        Button btn_result = (Button)findViewById(R.id.btnSame);
+    Button btn_result = (Button)findViewById(R.id.btnSame);
         btn_result.setOnClickListener(this);
-        Button btn_add = (Button)findViewById(R.id.btnPls);
+    Button btn_add = (Button)findViewById(R.id.btnPls);
         btn_add.setOnClickListener(this);
-        Button btn_sub = (Button)findViewById(R.id.btnMins);
+    Button btn_sub = (Button)findViewById(R.id.btnMins);
         btn_sub.setOnClickListener(this);
-        Button btn_mul = (Button)findViewById(R.id.btnMtp);
+    Button btn_mul = (Button)findViewById(R.id.btnMtp);
         btn_mul.setOnClickListener(this);
-        Button btn_div = (Button)findViewById(R.id.btnDvs);
+    Button btn_div = (Button)findViewById(R.id.btnDvs);
         btn_div.setOnClickListener(this);
-        Button btn_AC =(Button)findViewById(R.id.btnAc);
+    Button btn_AC =(Button)findViewById(R.id.btnAc);
         btn_AC.setOnClickListener(this);
-    }
+}
 
     @Override
     public void onClick(View v) {

@@ -9,13 +9,19 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+
         <activity android:name=".MainActivity">
-            <intent-filter>
+            <intent-filter>     // app이 실행됐을 때 가장 먼저 띄우라는 명령 태그
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <activity android:name=".SubActivity"
+            android:label="Sub">
+        </activity>
+
     </application>
 
 </manifest>
