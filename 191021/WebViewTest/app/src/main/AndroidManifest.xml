@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="org.techtown.webviewtest">
+
+    <!--  인터넷 사용 시에는 인터넷 사용 권한을 요청해야 함  -->
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+<!--
+    인터넷 사용을 위해 usesCleartextTraffic 사용
+    테마 변경을 위해 android:theme="@style/AppTheme.NoActionBar"
+-->
+
+    <application
+        android:allowBackup="true"
+        android:usesCleartextTraffic="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme.NoActionBar">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

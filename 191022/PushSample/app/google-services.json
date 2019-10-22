@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1039891073944",
+    "firebase_url": "https://pushsample-50fa2.firebaseio.com",
+    "project_id": "pushsample-50fa2",
+    "storage_bucket": "pushsample-50fa2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1039891073944:android:a5d0f637e7b8aea17439ed",
+        "android_client_info": {
+          "package_name": "org.techtown.pushsample"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1039891073944-cj2krdblggjd2r1ce2bes5nvc6kestjt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDCBznqoUayD2eNEfZslcq4bn84EXO2pqY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1039891073944-cj2krdblggjd2r1ce2bes5nvc6kestjt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
